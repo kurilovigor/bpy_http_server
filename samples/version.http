@@ -1,0 +1,4 @@
+POST http://localhost:8088/eval
+Content-Type: text/plain
+
+bpy.app.version
