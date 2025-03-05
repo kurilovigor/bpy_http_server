@@ -10,9 +10,9 @@ Install `src/bpy_http_server.py` as an addon using *Edit > Preferences > Add-ons
 
 Addon creates following endpoints:
 
-- http://localhost:8088/version - Get blender version.
-- http://localhost:8088/exec - Execute python script in Blender context.
-- http://localhost:8088/eval - Eval python script in Blender context and return result in JSON format.
+- GET http://localhost:8088/version - Get blender version.
+- POST http://localhost:8088/exec - Execute python script in Blender context.
+- POST http://localhost:8088/eval - Eval python script in Blender context and return result in JSON format.
 
 This example HTTP request returns number of scene objects:
 
